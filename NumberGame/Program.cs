@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NumberGame
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
@@ -24,9 +24,6 @@ namespace NumberGame
                 mouve[2] = int.Parse(Console.ReadLine());
                 player1IsActiv = !player1IsActiv;
             } while (!bord.Mouve(mouve));
-            //Todo: write the game loop
-            //Todo: write the game logic 
-
         }
     }
 }
