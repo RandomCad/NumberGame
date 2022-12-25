@@ -21,3 +21,6 @@ The goal of the program is to simulate the game an have to playmodes:
 
 To write the algorithem ther moust be writen a system wich can detect wenn the outcom of a game should be disisif.
 Therfor the computer sould save al the mouves a player ever dose so that the programers can understand the posibel solutions.
+
+The project uses Visual Studio 2019. With the folowing extensions for code cuality:
+Code Maid and SonarLint. Errors and rekomandations of both of thes are strikty to follow.
