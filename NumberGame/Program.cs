@@ -8,8 +8,10 @@ namespace NumberGame
 {
     static class Program
     {
+        private static GamePlaySaveClass GamePlay;
         static void Main(string[] args)
         {
+            GamePlay = GamePlaySaveClass.Instance;
             GameBord bord = new GameBord();
             bool player1IsActiv = true;
             int[] mouve = new int[3];

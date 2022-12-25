@@ -27,11 +27,12 @@ namespace NumberGame
         }
 
 
-        GameBord[] bords;
-        int[][] refrenzes;
+        GamePlaySaveTreeNode StartNode;
 
         GamePlaySaveClass()
         {
+            StartNode = new GamePlaySaveTreeNode(new GameBord(GameBord.StartBord), new int[0]);
+            //Todo: add the methode wich reads the saved states form a/the file.
         }
         public void SaveMouve()
         {

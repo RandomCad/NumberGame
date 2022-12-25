@@ -8,11 +8,16 @@ namespace NumberGame
 {
     class GameBord
     {
-        public int[] Bord = new int[] { 4, 6, 8 };
+        public readonly static int[] StartBord = new int[] { 4, 6, 8 };
+        public int[] Bord = StartBord;
 
         public GameBord()
         {
             //throw new NotImplementedException();
+        }
+        public GameBord(int[] stat)
+        {
+            Bord = stat;
         }
         public bool Mouve(int[] mouve)
         {
